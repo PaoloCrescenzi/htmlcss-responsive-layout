@@ -6,7 +6,7 @@
 
 .container{
     margin: auto;
-    width: 480px;
+    width: 90%;
 }
 
 button{
@@ -22,7 +22,26 @@ button{
 
 .btn-white{
     padding: .5rem;
+   
 }
+
+.btn-blue{
+    background-color: rgb(0, 114, 218);
+    color: white;
+    border-radius: 20px;
+}
+
+.btn-purple-black{
+    border-radius: 50%;
+    background-color: rgb(151, 146, 228);
+    padding: 1rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+
+
+
 
 nav{
     background-color: rgb(0, 114, 218);
@@ -35,19 +54,79 @@ nav{
     padding: .5rem 0;
 }
 
+
+
+
 img{
     width: 100%;
+}
+
+
+.appstore-container{
+    margin: 2rem 0;
+}
+
+.row-1 .square,
+.row-2 .square{
+    margin: 2rem 0;
 }
 
 .square{
     background-color: rgb(181, 221, 255);
     border-radius: 10px;
     padding: 2rem;
+    text-align: center;
 }
+
+.square i,
+.square h4{
+    color: rgb(0, 114, 218);
+}
+
+
+
+
+
+
 
 .plan-container{
     background-color: rgb(151, 146, 228);
 }
+
+.plan-container .col-1{
+    color: white;
+    margin: 2rem 0;
+
+}
+
+.plan-container .col-2{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.plan-container .container {
+    padding: 2rem 0;
+}
+
+
+
+
+.expert-container .card-container .card,
+.expert-container h2,
+.expert-container p{
+    margin: 2rem 0;
+}
+
+.expert-container .card-container .card{
+    background-color: rgb(151, 146, 228);
+    padding: 2rem;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+
+
 
 .development-container{
     background-color: rgb(255, 255, 255);
@@ -63,6 +142,12 @@ img{
 .benefits-container .container .row-2 .card{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    margin: 2rem 0;
+    padding: 2rem;
+}
+
+.benefits-container .container{
+    padding: 2rem 0;
 }
 
 .card>img,
